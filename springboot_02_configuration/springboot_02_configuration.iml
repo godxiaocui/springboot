@@ -14,7 +14,7 @@
       <configuration spring_boot_spring_config_custom_files="file://$MODULE_DIR$/../springboot_01_01_quickstart/src/main/resources/application.properties;file://$MODULE_DIR$/src/main/resources/application.yml;file://$MODULE_DIR$/src/main/resources/application.properties" />
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
