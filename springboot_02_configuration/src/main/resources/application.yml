@@ -1,0 +1,28 @@
+country: china
+
+user:
+  name: czh
+  sex: male
+
+baseDir: c:/usrs
+
+#使用${}属性名的方式引入
+tempDir: ${baseDir}/temp
+
+#如果有转义符号的需要加双引号
+tempDir1: "${baseDir}\temp \t1/ t2 / t3"
+
+
+# 创建一个了类。读取数据
+#spring加载数据到对象，一定要告诉spring 加载这个信息
+#使用时spring中直接获取信息使用
+datasource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+  name: root
+  password: czh66221183
+
+server:
+  port: 80
+  servlet:
+    context-path: /test
