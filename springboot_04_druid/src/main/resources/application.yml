@@ -4,5 +4,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: czh66221183
-
-#mp相关的设置
+    type: com.alibaba.druid.pool.DruidDataSource

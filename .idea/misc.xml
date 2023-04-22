@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/springboot_06-mabatiplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_0x_xxxxxxxxxxxxxxxxxx/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_07_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_07_druid/springboot_04_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_04_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
       </list>
     </option>
   </component>
