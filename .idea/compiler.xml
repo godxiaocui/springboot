@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,6 +13,7 @@
         <module name="springboot_04_druid" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_07_druid" />
+        <module name="springboot_08_ssmp" />
         <module name="demo" />
         <module name="springboot_02_configuration" />
       </profile>
@@ -20,10 +22,11 @@
       <module name="demo" target="1.8" />
       <module name="springboot_01_01_quickstart" target="1.8" />
       <module name="springboot_02_configuration" target="1.8" />
-      <module name="springboot_04_druid" target="17" />
+      <module name="springboot_04_druid" target="1.8" />
       <module name="springboot_05_mybatis" target="1.8" />
       <module name="springboot_06-mabatiplus" target="1.8" />
       <module name="springboot_07_druid" target="17" />
+      <module name="springboot_08_ssmp" target="1.8" />
       <module name="springboot_0x_xxxxxxxxxxxxxxxxxx" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -36,6 +39,7 @@
       <module name="springboot_05_mybatis" options="-parameters" />
       <module name="springboot_06-mabatiplus" options="-parameters" />
       <module name="springboot_07_druid" options="-parameters" />
+      <module name="springboot_08_ssmp" options="-parameters" />
       <module name="springboot_0x_xxxxxxxxxxxxxxxxxx" options="-parameters" />
     </option>
   </component>
