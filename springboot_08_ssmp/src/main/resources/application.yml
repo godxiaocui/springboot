@@ -1,7 +1,5 @@
 #mp相关的设置
 spring:
-  mvc:
-    static-path-pattern: /static/**
   datasource:
     url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver

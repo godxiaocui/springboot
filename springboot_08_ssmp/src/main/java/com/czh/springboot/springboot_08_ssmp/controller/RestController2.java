@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//吐血如果找不到访问页面的话需要直接访问静态资源http://localhost:8080/static/pages/books.html
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping("/books")
 public class RestController2 {
