@@ -43,6 +43,7 @@ public class RestController {
         IPage<Book> bookPage = new Page<>();
         bookPage.setCurrent(currentPage);
         bookPage.setSize(pageSize);
+
         return bookService.page(bookPage);
     }
 }

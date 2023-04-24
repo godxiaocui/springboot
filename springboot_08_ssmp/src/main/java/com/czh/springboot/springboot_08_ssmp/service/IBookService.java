@@ -1,5 +1,6 @@
 package com.czh.springboot.springboot_08_ssmp.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.czh.springboot.springboot_08_ssmp.pojo.Book;
 
@@ -10,4 +11,7 @@ public interface IBookService extends IService<Book> {
 
 
     Boolean deleteById(Integer id);
+
+
+    IPage<Book> getPage(Integer currentPage,Integer pageSize,Book book);
 }

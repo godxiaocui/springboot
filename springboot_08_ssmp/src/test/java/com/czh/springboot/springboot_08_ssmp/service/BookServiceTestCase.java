@@ -18,7 +18,7 @@ public class BookServiceTestCase {
     }
     @Test
     void testGetPage(){
-        IPage<Book> pade = bookService.getPade(2, 5);
+        IPage<Book> pade = bookService.getPage(2, 5);
         System.out.println(pade.getCurrent());
         System.out.println(pade.getPages());
         System.out.println(pade.getSize());

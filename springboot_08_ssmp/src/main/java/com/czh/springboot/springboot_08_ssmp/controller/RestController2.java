@@ -8,6 +8,7 @@ import com.czh.springboot.springboot_08_ssmp.service.IBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 
 @org.springframework.web.bind.annotation.RestController
@@ -16,11 +17,13 @@ public class RestController2 {
     @Autowired
     private IBookService bookService;
     @GetMapping
-    public R getAllBooks() {
+    public R getAllBooks()  {
+
         return  new R(true,bookService.list());
     }
     @PostMapping
-    public R save(@RequestBody Book book) {
+    public R save(@RequestBody Book book)  {
+
         return new R(bookService.save(book));
     }
 
@@ -39,12 +42,13 @@ public class RestController2 {
 
         return new R(true,bookService.getById(id));
     }
-
+// 分页加载器需要配置分页拦截器，config
     @GetMapping("{currentPage}/{pageSize}")
-    public R getPage(@PathVariable("currentPage") Integer currentPage, @PathVariable("pageSize") Integer pageSize) {
-        IPage<Book> bookPage = new Page<>();
-        bookPage.setCurrent(currentPage);
-        bookPage.setSize(pageSize);
-        return new R(true,bookService.page(bookPage));
+    public R getPage(@PathVariable("currentPage") Integer currentPage, @PathVariable("pageSize") Integer pageSize,Book book) {
+        IPage<Book> bookPage = bookService.getPage(currentPage,pageSize,book);
+
+        // 如果当前的页码值大于了总页码值。那么重新执行页面查询操作，使用最大值
+        System.out.println(bookPage);
+        return new R(true,bookPage);
     }
 }

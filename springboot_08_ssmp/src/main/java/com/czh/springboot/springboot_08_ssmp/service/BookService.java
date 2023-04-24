@@ -14,5 +14,5 @@ public interface BookService {
     Book selectById(Integer id);
     List<Book> getBookList();
 
-    IPage<Book> getPade(Integer currentPage,Integer pageSize);
+    IPage<Book> getPage(Integer currentPage,Integer pageSize);
 }

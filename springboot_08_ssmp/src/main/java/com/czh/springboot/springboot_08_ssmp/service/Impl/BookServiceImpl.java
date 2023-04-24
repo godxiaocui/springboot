@@ -39,7 +39,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public IPage<Book> getPade(Integer currentPage, Integer pageSize) {
+    public IPage<Book> getPage(Integer currentPage, Integer pageSize) {
         Page page = new Page(currentPage, pageSize);
         return bookDao.selectPage(page,null);
     }
