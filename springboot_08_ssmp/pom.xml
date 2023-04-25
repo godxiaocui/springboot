@@ -11,7 +11,7 @@
     <groupId>com.czh.springboot</groupId>
     <artifactId>springboot_08_ssmp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>springboot_08_ssmp</name>
     <description>springboot_08_ssmp</description>
     <properties>
@@ -58,18 +58,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
-                    <include>**/*.html</include>
-                    <include>static/**</include>
-
-                </includes>
-            </resource>
-        </resources>
     </build>
 
 </project>

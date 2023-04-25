@@ -1,0 +1,31 @@
+
+#????
+#????
+spring:
+  profiles:
+    active: dev
+
+---
+#????
+#????
+spring:
+  profiles: pro
+server:
+  port: 8080
+
+
+
+
+---
+#????
+spring:
+  profiles: dev
+server:
+  port: 8090
+
+---
+#????
+spring:
+  profiles: test
+server:
+  port: 8091

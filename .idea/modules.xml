@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_02_configuration/springboot_02_configuration.iml" filepath="$PROJECT_DIR$/springboot_02_configuration/springboot_02_configuration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_04_druid/springboot_04_druid.iml" filepath="$PROJECT_DIR$/springboot_04_druid/springboot_04_druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_05_mybatis/springboot_05_mybatis.iml" filepath="$PROJECT_DIR$/springboot_05_mybatis/springboot_05_mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_06-mabatiplus/springboot_06-mabatiplus.iml" filepath="$PROJECT_DIR$/springboot_06-mabatiplus/springboot_06-mabatiplus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_07_druid/springboot_07_druid.iml" filepath="$PROJECT_DIR$/springboot_07_druid/springboot_07_druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" filepath="$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_0x_xxxxxxxxxxxxxxxxxx/springboot_0x_xxxxxxxxxxxxxxxxxx.iml" filepath="$PROJECT_DIR$/springboot_0x_xxxxxxxxxxxxxxxxxx/springboot_0x_xxxxxxxxxxxxxxxxxx.iml" />
     </modules>
   </component>
 </project>

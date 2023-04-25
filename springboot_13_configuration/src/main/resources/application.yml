@@ -1,0 +1,8 @@
+
+servers:
+  idAddress: 193.12312.312321
+  port: 123123
+  timeout: -1
+
+datasource:
+  driverClassName: 12321321331221

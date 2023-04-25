@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot_08_ssmp" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_09_config" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,9 +15,12 @@
         <option value="$PROJECT_DIR$/springboot_0x_xxxxxxxxxxxxxxxxxx/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_07_druid/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_07_druid/springboot_04_druid/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_04_druid/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_10_profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_11_log/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_10_ssmp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_13_configuration/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,13 @@
+#
+#spring:
+#  profiles:
+#    active: dev
+#    include: devMVC
+
+
+spring:
+  profiles:
+    active: dev
+    group:
+      "dev": devMVC
+      "pro": proMVC

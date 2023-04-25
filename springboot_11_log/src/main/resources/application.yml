@@ -1,0 +1,18 @@
+logging:
+  group:
+      ebank: com.czh.springboot.springboot_11_log.controller,com.czh.springboot.springboot_11_log.dao
+  level:
+      root: info
+      #???????????
+      #com.czh.springboot.springboot_11_log.controller : debug
+      #???????????????
+      ebank: warn
+  #设置日志的模板
+  pattern:
+    console: "%d %p  - %m %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1KB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
