@@ -1,3 +1,17 @@
-
-test:
-    prop: "testvalue"
+#mp?????
+spring:
+    datasource:
+        druid:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+            username: root
+            password: czh66221183
+mybatis-plus:
+    global-config:
+        db-config:
+            table-prefix: tbl_
+            # ??????,???mabtis ??????
+            id-type: auto
+        # ??
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

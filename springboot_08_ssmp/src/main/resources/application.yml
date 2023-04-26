@@ -9,7 +9,7 @@ mybatis-plus:
   global-config:
     db-config:
       table-prefix: tbl_
-# 配置建的策略
+# 配置建的策略,防止用mabtis 的策略会乱码
       id-type: auto
 # 日志
   configuration:
